@@ -70,7 +70,7 @@ def handle_image_message(event):
         lang=lang,
         builder=pyocr.builders.TextBuilder()
     )
-    print(txt)
+    
     line_bot_api.reply_message(
         event.reply_token,
         TextSendMessage(text=txt)
