@@ -15,7 +15,7 @@ You can get (String)text from picture english written.
   1. TESSDATA_PREFIX (for tesseract)  
   `heroku config:set TESSDATA_PREFIX=/app/.apt/usr/share/tesseract-ocr/4.00/tessdata`  
   
-        #### perhaps tesseract directory is different if so, you can check by using below command
+        #### perhaps tessdata directory is different if so, you can check by using below command
         ```
         heroku run bash     
         find -iname tessdata
